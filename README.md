@@ -5,4 +5,5 @@ The Spotify Playlist Generator is a command-line program written in Python that 
 
 # Prerequisites
 Python 3.6 or above
+
 Spotipy library (Install using pip install spotipy)
