@@ -1,4 +1,3 @@
-import os
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
@@ -46,6 +45,7 @@ def generate_playlist():
             print()
     else:
         print("No tracks found for the provided artist names.")
+        print("Try Again")
 
 # Function to get the top tracks of an artist
 def get_artist_top_tracks(artist_id):
