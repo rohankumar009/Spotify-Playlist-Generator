@@ -47,8 +47,16 @@ Artist: Led Zeppelin
 - Track 2: Whole Lotta Love
 - Track 3: Kashmir
 
+
+
 Artist: The Beatles
 - Track 1: Let It Be
 - Track 2: And I Love Her
 - Track 3: Yesterday
 ```
+
+## Contributing
+Contributions are welcome, if you have suggestions, bug fixes, or improvements, please open an issue or submit a pull request!
+
+## License
+This project is licensed under the MIT License.
