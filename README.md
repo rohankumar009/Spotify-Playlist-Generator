@@ -3,6 +3,7 @@
 ## Overview
 This Spotify Playlist Generator is a command-line program written in Python which allows the users to generate a curated playlist based on entries of artists (*up to four artist names*). The program interacts with the Spotify API through the Spotipy library to search for the artists' unique Spotify IDs and create a playlist using those IDs. The generated playlist is then displayed in the terminal.
 
+    done
 
 ## Prerequisites
 - Python 3.6 or above
