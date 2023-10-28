@@ -1,17 +1,37 @@
 # Spotify-Playlist-Generator
 
 ## Overview
-This Spotify Playlist Generator is a command-line program written in Python which allows the users to generate a curated playlist based on entries of artists (*up to four artist names*). The program interacts with the Spotify API through the Spotipy library to search for the artists' unique Spotify IDs and create a playlist using those IDs. The generated playlist is then displayed in the terminal.
+This Spotify Playlist Generator is a command-line program written in Python which allows the users to generate a curated playlist based on entries of artists (*up to four artist names*). The program interacts with the Spotify API through the Spotify library to search for the artists' unique Spotify IDs and create a playlist using those IDs. The generated playlist is then displayed in the terminal.
+
+##### New Update: 
+In my previous iteration, the functionality was limited to selecting just four artists for playlist curation. However, I'm excited to share that I'm actively developing an upcoming update for this project. With this update, you'll have the flexibility to choose from a selection of 10 artists and even delve into specific genres. This expanded capability will empower you to craft your playlists with a personal touch, blending diverse artists and genres to create a truly authentic and tailored listening experience that caters to your unique preferences.
+
+
+I'm aiming to complete this project by December and have plans to integrate it into a web application in the near future.
+
+###### Example for Upcoming Update:
+```bash
+$ python playlist_generator.py
+Enter the artist names and/or genres you want to listen to: 
+Artist/Genere 1: Drake
+Artist/Genere 2: Sleep
+Artist/Genere 3: Study
+Artist/Genere 4: Taylor Swift
+.
+.
+.
+Artist/Genere 10: Holiday Music
+```
 
     Sorting Issues and adding some features like accessing genres along with artists
 ## Prerequisites
 - Python 3.6 or above
-- Spotify library (Install using pip install spotify)
+- Spotify library (Install using pip install Spotify)
 
-## Useage
+## Usage
 1. Open your terminal and navigate to the project directory:
 ```bash
-cd spotify-playlist-generator
+cd Spotify-playlist-generator
 ```
 
 2. Run the program:
@@ -55,7 +75,7 @@ Artist: The Beatles
 ```
 
 ## Contributing
-Contributions are welcome, if you have suggestions, bug fixes, or improvements, please open an issue or submit a pull request!
+Contributions are welcome- if you have suggestions, bug fixes, or improvements, please open an issue or submit a pull request!
 
 ## License
 This project is licensed under the MIT License.
