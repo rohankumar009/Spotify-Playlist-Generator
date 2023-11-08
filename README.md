@@ -13,14 +13,14 @@ I'm aiming to complete this project by December and have plans to integrate it i
 ```bash
 $ python playlist_generator.py
 Enter the artist names and/or genres you want to listen to: 
-Artist/Genere 1: Drake
-Artist/Genere 2: Sleep
-Artist/Genere 3: Study
-Artist/Genere 4: Taylor Swift
+Artist/Genre 1: Drake
+Artist/Genre 2: Sleep
+Artist/Genre 3: Study
+Artist/Genre 4: Taylor Swift
 .
 .
 .
-Artist/Genere 10: Holiday Music
+Artist/Genre 10: Holiday Music
 ```
 
     Sorting Issues and adding some features like accessing genres along with artists
